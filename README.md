@@ -41,9 +41,7 @@ Models spatial dependencies between nodes using GCN or GAT Produces spatial embe
 - Combined Prediction Uses a joint model for flow prediction using MSE loss
 Anomaly detection is handled via:
 
-Autoencoder reconstruction error
-Clustering (e.g., DBSCAN, k-means)
-Statistical thresholding (z-scores)
+ Autoencoder reconstruction error Clustering (e.g., DBSCAN, k-means) and Statistical thresholding (z-scores)
 
 ## Experiments
 Baseline Models for Comparison:
